@@ -1,7 +1,7 @@
 # cybersecurity-portfolio 
 
 Hi 👋  
-I’m Frddrick Agufenwa, an aspiring SOC Analyst with a background in Computer Science.
+I’m Fredrick Agufenwa, an aspiring SOC Analyst with a background in Computer Science.
 
 This repository documents my hands-on labs and projects in:
 - Networking fundamentals
