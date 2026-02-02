@@ -53,18 +53,25 @@ systems to simplify host management and reduce configuration errors.
 ---
 
 ## pfSense Configuration
+![pfSense Console](screenshots/pfsense-console.png)
+![pfSense Interfaces](screenshots/pfsense-interfaces.png)
 
 ### Interface Assignment
 - WAN interface configured to obtain an address automatically
 - LAN interface configured with a static IP address
 - LAN connected to a VirtualBox Internal Network (`soc_lan`)
 
+### pfSense Interface Overview
 This setup ensured a clear separation between external and internal
 network traffic.
 
 ---
 
 ### DHCP Configuration
+
+![pfSense DHCP Configuration](screenshots/pfsense-dhcp-lan.png)
+![pfSense DHCP Leases](screenshots/pfsense-dhcp-leases.png)
+
 - DHCP server enabled on the LAN interface
 - Address pool configured for internal hosts
 - pfSense operates as the sole DHCP authority on the network
@@ -82,6 +89,16 @@ domain names while maintaining visibility and control at the firewall.
 ---
 
 ## Connectivity Verification
+### Host IP Verification
+
+**Ubuntu Server**
+![Ubuntu IP](screenshots/ubuntu-ip.png)
+
+**Windows 10**
+![Windows IP](screenshots/windows-ipconfig.png)
+
+**Kali Linux**
+![Kali IP](screenshots/kali-ip.png)
 
 ### IP Assignment Verification
 All systems successfully obtained IP addresses within the
