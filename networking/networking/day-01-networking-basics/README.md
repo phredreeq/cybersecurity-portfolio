@@ -5,9 +5,9 @@ The objective of this lab was to understand how systems communicate
 within a small enterprise-style network by designing, wiring,
 configuring, and troubleshooting a virtual lab environment.
 
-This lab focuses on how traffic flows between hosts, how IP addressing
-and services are assigned, and how a firewall operates as the
-central communication point.
+The focus of this day was on how traffic flows between hosts, how IP
+addressing and core services are assigned, and how a firewall operates
+as the central communication point.
 
 ---
 
@@ -26,12 +26,12 @@ central communication point.
 
 ### Architecture Overview
 - pfSense acts as the perimeter firewall and default gateway
-- WAN interface connects to the Internet using VirtualBox NAT
-- LAN interface connects to an isolated Internal Network (`soc_lan`)
+- The WAN interface connects to the Internet using VirtualBox NAT
+- The LAN interface connects to an isolated Internal Network (`soc_lan`)
 - All client machines reside on the same LAN segment
 
 A simple star topology was used, with pfSense positioned at the center
-of all network communication.
+of all internal network communication.
 
 ---
 
@@ -45,62 +45,67 @@ of all network communication.
 | Kali Linux | DHCP |
 
 Static addressing was applied to the firewall LAN interface to ensure a
-consistent default gateway, while DHCP was used for endpoints to simplify
-host management and reduce configuration errors.
+consistent default gateway. DHCP was intentionally used for endpoint
+systems to simplify host management and reduce configuration errors.
 
 ---
 
 ## pfSense Configuration
 
 ### Interface Assignment
-- WAN interface configured for DHCP (VirtualBox NAT)
+- WAN interface configured to obtain an address automatically
 - LAN interface configured with a static IP address
-- LAN connected to an Internal Network (`soc_lan`)
+- LAN connected to a VirtualBox Internal Network (`soc_lan`)
+
+This setup ensured a clear separation between external and internal
+network traffic.
 
 ---
 
 ### DHCP Configuration
 - DHCP server enabled on the LAN interface
-- Address pool configured from 192.168.10.100 to 192.168.10.200
-- pfSense acts as the sole DHCP authority for all internal hosts
+- Address pool configured for internal hosts
+- pfSense operates as the sole DHCP authority on the network
 
-This ensured that all systems automatically received an IP address,
-default gateway, and DNS configuration.
+All client systems successfully received IP addresses, default gateway,
+and DNS configuration from pfSense.
 
 ---
 
 ### DNS Configuration
-The pfSense DNS Resolver (Unbound) was enabled in forwarding mode.
-All LAN clients use pfSense as their DNS server, allowing centralized
-name resolution and improved visibility into DNS traffic.
+The pfSense DNS Resolver (Unbound) was enabled to provide centralized DNS
+resolution for all LAN clients. This allowed internal systems to resolve
+domain names while maintaining visibility and control at the firewall.
 
 ---
 
 ## Connectivity Verification
 
 ### IP Assignment Verification
-Each system successfully obtained an IP address within the
+All systems successfully obtained IP addresses within the
 192.168.10.0/24 subnet, confirming that DHCP was functioning correctly.
 
 ---
 
-### Ping Tests
-Connectivity was verified using ICMP:
-- Host to pfSense
-- Host to host
-- Host to Internet (8.8.8.8)
-- DNS resolution tested using domain name pings
+### Network Connectivity Tests
+Connectivity was verified using multiple methods:
+- Client-to-firewall communication
+- Client-to-client communication
+- Client-to-Internet connectivity
+- DNS resolution using domain names
 
-Successful responses confirmed proper routing and DNS functionality.
+These tests confirmed correct routing, gateway configuration, and DNS
+functionality across the lab environment.
 
 ---
 
-### Traceroute Test
-A traceroute was performed from Kali Linux to the Ubuntu Server to verify
-that internal traffic remained within the LAN and did not traverse the WAN.
+### Traceroute Verification
+A traceroute test was performed from Kali Linux to the Ubuntu Server.
+The results confirmed that internal traffic remained within the LAN and
+did not traverse the WAN or external networks.
 
-```bash
-traceroute <ubuntu-ip>
+---
+
 ## Troubleshooting Highlights
 During the lab, several real-world issues were encountered and resolved:
 
@@ -109,7 +114,8 @@ During the lab, several real-world issues were encountered and resolved:
 - LAN interface misconfiguration during pfSense setup
 - DNS service conflicts between DNS Resolver and DNS Forwarder
 
-These issues were resolved through systematic Layer 2 and Layer 3 troubleshooting.
+These issues were resolved through systematic Layer 2 and Layer 3
+troubleshooting.
 
 ---
 
