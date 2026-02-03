@@ -19,3 +19,13 @@ This repository documents my hands-on labs and projects in:
 ## Goal
 To gain real-world cybersecurity experience and transition into
 an entry-level SOC Analyst role.
+
+
+
+## Networking Labs
+
+- Day 1 – Networking Basics & Lab Wiring  
+  Built a segmented network using pfSense with DHCP, DNS, and routing.
+
+- Day 2 – TCP/IP, Ports & Protocols  
+  Installed network services, identified open TCP and UDP ports, and performed reconnaissance using Nmap.
