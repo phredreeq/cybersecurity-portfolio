@@ -29,3 +29,6 @@ an entry-level SOC Analyst role.
 
 - Day 2 – TCP/IP, Ports & Protocols  
   Installed network services, identified open TCP and UDP ports, and performed reconnaissance using Nmap.
+
+  - Day 3 – Wireshark Packet Analysis  
+  Captured and analyzed ICMP, DNS, HTTP, SSH, and TCP traffic using Wireshark to understand packet-level behavior.
