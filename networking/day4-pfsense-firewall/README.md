@@ -97,3 +97,18 @@ Result:
 - Traffic analysis and verification
 - pfSense administration
 - SOC-style troubleshooting and documentation
+
+
+## Screenshots
+
+### 1. Kali → Ubuntu SSH Blocked (nmap)
+![Kali SSH blocked](screenshots/day4_kali_ssh_blocked.png)
+
+### 2. Win10 → Ubuntu HTTP Allowed (Browser)
+![Win10 HTTP allowed](screenshots/day4_win10_http_allowed.png)
+
+### 3. Win10 HTTP Verification via curl
+![Win10 curl HTTP](screenshots/day4_win10_curl_http.png)
+
+### 4. pfSense Firewall Log – SSH Block
+![pfSense SSH block log](screenshots/day4_pfsense_firewall_log_blocked_ssh.png)
