@@ -24,7 +24,7 @@ as the central communication point.
 
 ## Network Design
 
-![Network Topology](diagrams/network-topology.jpg)
+![Network Topology](screenshots/network-topology.jpg)
 
 ### Architecture Overview
 - pfSense acts as the perimeter firewall and default gateway
