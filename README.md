@@ -1,43 +1,82 @@
-# cybersecurity-portfolio 
+# Cybersecurity Portfolio
 
-Hi 👋  
-I’m Fredrick Agufenwa, an aspiring SOC Analyst with a background in Computer Science.
+## Overview
+This repository documents my hands-on journey into cybersecurity with a strong focus on SOC analyst and defensive security skills. It contains practical labs, troubleshooting exercises, and real-world simulations covering networking, Linux internals, firewall configuration, and security monitoring.
 
-This repository documents my hands-on labs and projects in:
-- Networking fundamentals
-- Traffic analysis
-- Security tools
-- SOC-style investigations
+The goal of this portfolio is to demonstrate practical understanding and problem-solving ability, not just theoretical knowledge.
 
-## Tools & Technologies
-- Wireshark
-- GNS3
-- Kali Linux
-- Splunk
-- pfSense
+---
 
-## Goal
-To gain real-world cybersecurity experience and transition into
-an entry-level SOC Analyst role.
+## What This Portfolio Demonstrates
+- Hands-on security lab building and troubleshooting
+- Strong fundamentals in networking and Linux
+- Defender and SOC analyst mindset
+- Ability to investigate issues using logs and system evidence
+- Clear technical documentation with screenshots
+- Progressive learning with increasing complexity
 
+All labs are practical and documented with explanations and visual evidence.
 
+---
 
-## Networking Labs
+## Repository Structure
+The work in this portfolio is organized by topic and learning day. Each folder contains:
+- A README explaining the lab objective and actions taken
+- Screenshots used as evidence
+- Clear outcomes and lessons learned
 
-- Day 1 – Networking Basics & Lab Wiring  
-  Built a segmented network using pfSense with DHCP, DNS, and routing.
+---
 
-- Day 2 – TCP/IP, Ports & Protocols  
-  Installed network services, identified open TCP and UDP ports, and performed reconnaissance using Nmap.
+## Lab Highlights
 
-- Day 3 – Wireshark Packet Analysis  
-  Captured and analyzed ICMP, DNS, HTTP, SSH, and TCP traffic using Wireshark to understand packet-level behavior.
+### Day 1 – Networking Basics
+Focused on understanding how systems communicate within a network.  
+Key areas covered include network segmentation, IP addressing, interface configuration, and basic connectivity testing.
 
-- Day 4 pfSense Firewall Rules
-  - Added pfSense firewall rules to control inter-network traffic
-  - Blocked SSH access from Kali Linux to Ubuntu Server
-  - Allowed HTTP access from Windows 10 to Ubuntu Server
-  - Verified rule enforcement using nmap, curl, and firewall logs
- 
-- Day 5 Network Troubleshooting
-    DNS. HTTP, and packet loss
+---
+
+### Day 4 – pfSense Firewall Rules
+Focused on controlling and inspecting network traffic using firewall rules.  
+Activities included blocking unauthorized SSH access, allowing legitimate HTTP traffic, and verifying rule behavior through testing and firewall logs.
+
+---
+
+### Day 5 – Network Troubleshooting
+Focused on diagnosing and resolving common network issues.  
+Scenarios included DNS failures, blocked services, and packet loss simulation. Emphasis was placed on systematic troubleshooting and log-based verification.
+
+---
+
+### Day 6 – Linux Internals for Security
+Focused on Linux from a defender’s perspective.  
+Covered user and permission management, process monitoring, and authentication log investigation to understand how system activity is controlled and recorded.
+
+---
+
+## Tools and Technologies Used
+- Linux systems (Ubuntu Server, Kali Linux)
+- pfSense firewall
+- Networking fundamentals (TCP/IP, DNS, ICMP)
+- Linux system monitoring and logging
+- SSH and authentication mechanisms
+- Windows 10 VM
+- Virtualized lab environments
+
+---
+
+## Focus Areas
+- SOC analyst fundamentals
+- Blue Team and defensive security
+- Incident investigation mindset
+- Practical troubleshooting skills
+- Clear and professional documentation
+
+---
+
+## About Me
+I am building a strong foundation in cybersecurity with the goal of working in a Security Operations Center or other defensive security roles. This portfolio reflects my commitment to learning through hands-on practice and continuous improvement.
+
+---
+
+## Ongoing Development
+This portfolio is actively maintained and will continue to grow with additional labs focused on log analysis, detection techniques, incident response workflows, and SIEM-based investigations.
