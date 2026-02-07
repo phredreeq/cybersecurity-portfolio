@@ -31,13 +31,13 @@ Understand how Linux enforces access control using users, ownership, and file pe
 
 ### Evidence
 Non-privileged user created   
-screenshots/day6_p1_user_created.png
+![User created](screenshots/day6_p1_user_created.png)
 
 Restricted permissions
-screenshots/day6_p1_restricted_permissions.png
+![Restricted permissions](screenshots/day6_p1_restricted_permissions.png)
 
 Restricted file access denied  
-screenshots/day6_p1_access_denied.png
+![Restricted access](screenshots/day6_p1_access_denied.png)
 
 ---
 
@@ -58,13 +58,13 @@ Monitor running processes and identify abnormal resource usage that could indica
 
 ### Evidence
 Process list overview  
-screenshots/day6_p2_ps_aux_output.png
+![ps aux](screenshots/day6_p2_ps_aux_output.png)
 
 Live process monitoring  
-screenshots/day6_p2_top_showing_processes.png
+![Top showing](screenshots/day6_p2_top_showing_processes.png)
 
 High CPU usage detected  
-screenshots/day6_p2_high_cpu_process.png
+![High CPU process](screenshots/day6_p2_high_cpu_process.png)
 
 ---
 
@@ -84,10 +84,10 @@ Investigate Linux authentication logs to identify successful and failed login at
 
 ### Evidence
 SSH login attempts from external systems  
-screenshots/day6_p3_ssh_login_attempts.png
+![SSH login attempt](screenshots/day6_p3_ssh_login_attempts.png)
 
 Authentication events recorded in system logs  
-screenshots/day6_p3_login_attempt_recorded.png
+![Login attemptt recorded](screenshots/day6_p3_login_attempt_recorded.png)
 
 ---
 
