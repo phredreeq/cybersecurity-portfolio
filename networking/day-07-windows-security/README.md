@@ -23,8 +23,8 @@ inbound and outbound traffic.
 - Confirmed firewall protection is active for the system
 
 ### Evidence
-Windows Defender Firewall enabled  
-screenshots/day7_firewall_enabled.png
+
+![Windows Defender Firewall enabled](screenshots/day7_firewall_enabled.png)
 
 ---
 
@@ -38,8 +38,8 @@ Identify where Windows records authentication and security-related events.
 - Navigated to Windows Logs → Security
 
 ### Evidence
-Event Viewer showing Security log  
-screenshots/day7_eventviewer_security_log.png
+
+![Event Viewer showing Security log](screenshots/day7_eventviewer_security_log.png)
 
 ---
 
@@ -57,8 +57,8 @@ of brute-force attacks or unauthorized access attempts.
 - 4625 – Failed logon
 
 ### Evidence
-Failed login event (Event ID 4625)  
-screenshots/day7_event_4625_failed_logon.png
+
+![Failed login event (Event ID 4625)](screenshots/day7_event_4625_failed_logon.png)
 
 ---
 
@@ -76,8 +76,8 @@ administrative actions, misconfigurations, or persistence mechanisms.
 - 7040 – Service start type changed
 
 ### Evidence
-Service configuration change event (Event ID 7040)  
-screenshots/day7_event_7040_service_change.png
+
+![Service configuration change event (Event ID 7040)](screenshots/day7_event_7040_service_change.png)
 
 ---
 
