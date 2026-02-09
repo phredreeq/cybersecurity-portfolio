@@ -53,6 +53,13 @@ Covered user and permission management, process monitoring, and authentication l
 
 ---
 
+### Day 7 – Windows Security Basics
+- Verified Windows Firewall status  
+- Analyzed failed login events (Event ID 4625)  
+- Identified service configuration changes (Event ID 7040)
+
+---
+
 ## Tools and Technologies Used
 - Linux systems (Ubuntu Server, Kali Linux)
 - pfSense firewall
