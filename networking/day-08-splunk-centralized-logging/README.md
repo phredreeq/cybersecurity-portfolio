@@ -80,7 +80,7 @@ This simulates a basic SOC visibility dashboard for monitoring authentication ac
 1. Splunk service running (Ubuntu) ![](screenshots/day8_splunk_service_running.png)
 
    
-2. Forwarder active connection (Windows) ![](screenshots/day8_forwarder_connected.png)
+2. Forwarder active connection (Windows) ![](day8_forwarder_connected.png)
 
 
 3. Failed logons search results ![](screenshots/day8_failed_logons_search.png)
@@ -112,7 +112,3 @@ This simulates a basic SOC visibility dashboard for monitoring authentication ac
 Successfully implemented centralized logging architecture and built a basic SOC monitoring dashboard using Splunk.
 
 This lab simulates real-world log ingestion and monitoring workflow used by SOC analysts.
-
-
-
- ![hhh](screenshots/day8_forwarder_connected.png)
