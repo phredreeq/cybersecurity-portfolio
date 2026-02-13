@@ -60,6 +60,11 @@ Covered user and permission management, process monitoring, and authentication l
 
 ---
 
+## Day 8 – Centralized Logging (Splunk)
+Deployed Splunk Enterprise on Ubuntu and configured Windows Universal Forwarder to send Windows Event Logs (Security, System, Application) to a centralized SIEM. Built a SOC-style monitoring dashboard to analyze authentication activity, including successful (4624) and failed (4625) logon events.
+
+---
+
 ## Tools and Technologies Used
 - Linux systems (Ubuntu Server, Kali Linux)
 - pfSense firewall
