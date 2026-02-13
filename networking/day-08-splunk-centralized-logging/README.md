@@ -112,3 +112,7 @@ This simulates a basic SOC visibility dashboard for monitoring authentication ac
 Successfully implemented centralized logging architecture and built a basic SOC monitoring dashboard using Splunk.
 
 This lab simulates real-world log ingestion and monitoring workflow used by SOC analysts.
+
+
+
+ ![](screenshots/day8_forwarder_connected.png)
