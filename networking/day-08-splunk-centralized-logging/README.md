@@ -115,4 +115,4 @@ This lab simulates real-world log ingestion and monitoring workflow used by SOC 
 
 
 
- ![](screenshots/day8_forwarder_connected.png)
+ ![hhh](screenshots/day8_forwarder_connected.png)
