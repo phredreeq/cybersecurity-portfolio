@@ -78,10 +78,20 @@ This simulates a basic SOC visibility dashboard for monitoring authentication ac
 ## 📸 Screenshots
 
 1. Splunk service running (Ubuntu) ![](screenshots/day8_splunk_service_running.png)
+
+   
 2. Forwarder active connection (Windows) ![](screenshots/day8_forwarder_connected.png)
+
+
 3. Failed logons search results ![](screenshots/day8_failed_logons_search.png)
+
+   
 4. Successful logons search results ![](screenshots/day8_successful_logons_search.png)
+
+
 5. Log statistics by host ![](screenshots/day8_log_statistics_by_host.png)
+
+    
 6. SOC Monitoring dashboard view ![](screenshots/day8_soc_monitoring_dashboard.png)
 
 ---
