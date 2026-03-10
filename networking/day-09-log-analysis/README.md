@@ -37,7 +37,7 @@ index=main EventCode=4625 | stats count by Account_Name
 This helps identify targeted accounts during authentication failures.
 
 Screenshot:
-day9_windows_failed_login_stats.png
+![](screenshots/day9_windows_failed_login_stats.png)
 
 ---
 
@@ -50,7 +50,7 @@ index=main source="/var/log/apache2/access.log"
 This query displays web server access activity including client requests.
 
 Screenshot:
-day9_apache_logs_in_splunk.png
+![](screenshots/day9_apache_logs_in_splunk.png)
 
 ---
 
@@ -63,7 +63,7 @@ index=main source="/var/log/apache2/access.log" | stats count by host
 This shows which systems are interacting with the web server.
 
 Screenshot:
-day9_apache_client_ip_analysis.png
+![](screenshots/day9_apache_client_ip_analysis.png)
 
 ---
 
@@ -76,7 +76,7 @@ index=main "Failed password"
 This query identifies SSH authentication failures which may indicate brute-force attacks.
 
 Screenshot:
-day9_ssh_failed_password_events.png
+![](screenshots/day9_ssh_failed_password_events.png)
 
 ---
 
@@ -89,7 +89,7 @@ index=main "Failed password" | stats count
 This helps measure the volume of failed login attempts detected in the environment.
 
 Screenshot:
-day9_ssh_attacker_ip_detection.png
+![](screenshots/day9_ssh_attacker_ip_detection.png)
 
 ---
 
