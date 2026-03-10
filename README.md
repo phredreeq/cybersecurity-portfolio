@@ -65,6 +65,12 @@ Deployed Splunk Enterprise on Ubuntu and configured Windows Universal Forwarder 
 
 ---
 
+## Day 9 – Log Analysis
+
+Performed security log analysis using Splunk to detect abnormal behavior across multiple systems. Investigated Windows failed login attempts (Event ID 4625), analyzed Apache web server access logs, and identified SSH authentication failures indicating possible brute-force activity.
+
+---
+
 ## Tools and Technologies Used
 - Linux systems (Ubuntu Server, Kali Linux)
 - pfSense firewall
