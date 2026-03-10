@@ -24,7 +24,7 @@ index=main EventCode=4625
 This query identifies failed authentication attempts in Windows logs.
 
 Screenshot:
-![Windows Failed Logins](day9_windows_failed_logins.png)
+![Windows Failed Logins](screenshots/day9_windows_failed_logins.png)
 
 ---
 
