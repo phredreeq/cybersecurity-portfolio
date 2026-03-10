@@ -37,7 +37,7 @@ index=main EventCode=4625 | stats count by Account_Name
 This helps identify targeted accounts during authentication failures.
 
 Screenshot:
-![](screenshots/day9_windows_failed_login_stats.png)
+![Windows Failed Login Stats](screenshots/day9_windows_failed_login_stats.png)
 
 ---
 
